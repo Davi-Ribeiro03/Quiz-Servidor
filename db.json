@@ -1,9 +1,318 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "frontend": {
+    "facil": [
+      {
+        "pergunta": "O que significa HTML?",
+        "itens": [
+          "a) Hyperlinks and Text Markup Language",
+          "b) Home Tool Markup Language",
+          "c) Hyper Text Markup Language",
+          "d) Hyperlinks and Text Management Language"
+        ],
+        "resposta_correta": "Hyper Text Markup Language"
+      },
+      {
+        "pergunta": "Qual elemento HTML é usado para criar uma lista ordenada?",
+        "itens": [
+          "a) <ul>",
+          "b) <ol>",
+          "c) <list>",
+          "d) <li>"
+        ],
+        "resposta_correta": "<ol>"
+      },
+      {
+        "pergunta": "Qual é a tag usada para definir uma tabela em HTML?",
+        "itens": [
+          "a) <tr>",
+          "b) <td>",
+          "c) <table>",
+          "d) <th>"
+        ],
+        "resposta_correta": "<table>"
+      },
+      {
+        "pergunta": "O que o acrônimo CSS significa?",
+        "itens": [
+          "a) Cascading Style Sheets",
+          "b) Computer Style Sheets",
+          "c) Colorful Style Sheets",
+          "d) Creative Style Sheets"
+        ],
+        "resposta_correta": "Cascading Style Sheets"
+      },
+      {
+        "pergunta": "Qual é o seletor CSS para selecionar um elemento pelo seu ID?",
+        "itens": [
+          "a) .",
+          "b) /",
+          "c) @",
+          "d) #"
+        ],
+        "resposta_correta": "#"
+      }
+    ],
+    "medio": [
+      {
+        "pergunta": "O que é flexbox em CSS?",
+        "itens": [
+          "a) Um tipo de seleção de elementos",
+          "b) Uma linguagem de estilização",
+          "c) Um modelo de layout bidimensional",
+          "d) Um método de animação"
+        ],
+        "resposta_correta": "Um modelo de layout bidimensional"
+      },
+      {
+        "pergunta": "O que significa SVG em HTML?",
+        "itens": [
+          "a) Standard Vector Graphics",
+          "b) Scalable Vector Graphics",
+          "c) Simple Vector Graphics",
+          "d) Scalable Visual Graphics"
+        ],
+        "resposta_correta": "Scalable Vector Graphics"
+      },
+      {
+        "pergunta": "Qual é a função do elemento <canvas> em HTML5?",
+        "itens": [
+          "a) Desenhar gráficos, via script (geralmente JavaScript)",
+          "b) Exibir imagens estáticas",
+          "c) Criar listas de itens",
+          "d) Reproduzir vídeos"
+        ],
+        "resposta_correta": "Desenhar gráficos, via script (geralmente JavaScript)"
+      },
+      {
+        "pergunta": "O que é um framework front-end?",
+        "itens": [
+          "a) Um conjunto de ferramentas pré-estabelecidas para desenvolvimento web",
+          "b) Uma linguagem de programação",
+          "c) Um sistema operacional",
+          "d) Um editor de código"
+        ],
+        "resposta_correta": "Um conjunto de ferramentas pré-estabelecidas para desenvolvimento web"
+      },
+      {
+        "pergunta": "Qual é a diferença entre <div> e <span> em HTML?",
+        "itens": [
+          "a) Ambos são block",
+          "b) Ambos são inline",
+          "c) <div> é block e <span> é inline",
+          "d) <div> é inline e <span> é block"
+        ],
+        "resposta_correta": "<div> é block e <span> é inline"
+      }
+    ],
+    "dificil": [
+      {
+        "pergunta": "O que é o conceito de Web Components?",
+        "itens": [
+          "a) Um modelo de programação assíncrona",
+          "b) Um tipo de banco de dados distribuído",
+          "c) Um conjunto de padrões para a criação de elementos reutilizáveis em aplicações web",
+          "d) Uma biblioteca JavaScript para criação de gráficos interativos"
+        ],
+        "resposta_correta": "Um conjunto de padrões para a criação de elementos reutilizáveis em aplicações web"
+      },
+      {
+        "pergunta": "O que é cross-origin resource sharing (CORS) em desenvolvimento web?",
+        "itens": [
+          "a) Uma técnica para criar layouts responsivos",
+          "b) Um método de criptografia de dados",
+          "c) Uma técnica para compartilhar recursos entre diferentes aplicações web",
+          "d) Um protocolo de comunicação entre servidor e cliente"
+        ],
+        "resposta_correta": "Uma técnica para compartilhar recursos entre diferentes aplicações web"
+      },
+      {
+        "pergunta": "O que é o conceito de Lazy Loading em desenvolvimento web?",
+        "itens": [
+          "a) Um método de carregamento de todos os recursos de uma vez",
+          "b) Um método de carregamento de recursos em uma ordem específica",
+          "c) Um método de carregamento de recursos de forma assíncrona",
+          "d) Um método de carregamento de recursos apenas quando são necessários"
+        ],
+        "resposta_correta": "Um método de carregamento de recursos apenas quando são necessários"
+      },
+      {
+        "pergunta": "O que é o protocolo HTTPS?",
+        "itens": [
+          "a) Hypertext Transfer Page Security",
+          "b) Hypertext Transmission Protocol Secure",
+          "c) Hypertext Transfer Protocol Standard",
+          "d) Hypertext Transmission Protocol Secure"
+        ],
+        "resposta_correta": "Hypertext Transfer Protocol Secure"
+      },
+      {
+        "pergunta": "O que é uma API de geolocalização?",
+        "itens": [
+          "a) Uma interface para acessar informações sobre a localização do usuário",
+          "b) Uma biblioteca para plotagem de mapas interativos",
+          "c) Uma interface para acessar serviços de geografia online",
+          "d) Um protocolo de comunicação entre servidores e clientes"
+        ],
+        "resposta_correta": "Uma interface para acessar informações sobre a localização do usuário"
+      }
+    ]
+  },
+  "backend": {
+    "facil": [
+      {
+        "pergunta": "O que é um servidor web?",
+        "itens": [
+          "a) Um dispositivo de hardware dedicado a hospedar websites",
+          "b) Uma base de dados",
+          "c) Uma linguagem de programação",
+          "d) Um software que fornece recursos para aplicativos web"
+        ],
+        "resposta_correta": "Um software que fornece recursos para aplicativos web"
+      },
+      {
+        "pergunta": "Qual é o papel do servidor em uma arquitetura cliente-servidor?",
+        "itens": [
+          "a) Conectar múltiplos clientes entre si",
+          "b) Fornecer recursos e serviços para clientes",
+          "c) Armazenar dados do cliente localmente",
+          "d) Gerenciar a interface do usuário"
+        ],
+        "resposta_correta": "Fornecer recursos e serviços para clientes"
+      },
+      {
+        "pergunta": "O que é o protocolo HTTP?",
+        "itens": [
+          "a) Hypertext Transmission Protocol",
+          "b) Hypertext Transition Protocol",
+          "c) Hypertext Transfer Page",
+          "d) Hypertext Transfer Protocol"
+        ],
+        "resposta_correta": "Hypertext Transfer Protocol"
+      },
+      {
+        "pergunta": "O que é uma requisição HTTP GET?",
+        "itens": [
+          "a) Uma requisição para atualizar dados no servidor",
+          "b) Uma requisição para enviar dados ao servidor",
+          "c) Uma requisição para obter dados do servidor",
+          "d) Uma requisição para excluir dados do servidor"
+        ],
+        "resposta_correta": "Uma requisição para obter dados do servidor"
+      },
+      {
+        "pergunta": "O que é o método HTTP POST?",
+        "itens": [
+          "a) Um método para atualizar dados no servidor",
+          "b) Um método para obter dados do servidor",
+          "c) Um método para excluir dados do servidor",
+          "d) Um método para enviar dados ao servidor"
+        ],
+        "resposta_correta": "Um método para enviar dados ao servidor"
+      }
+    ],
+    "medio": [
+      {
+        "pergunta": "O que é uma sessão em uma aplicação web?",
+        "itens": [
+          "a) Um período de tempo que um usuário passa interagindo com a aplicação",
+          "b) Uma transmissão de dados entre duas partes",
+          "c) Uma coleção de páginas web relacionadas",
+          "d) Uma conexão de rede entre cliente e servidor"
+        ],
+        "resposta_correta": "Um período de tempo que um usuário passa interagindo com a aplicação"
+      },
+      {
+        "pergunta": "O que é uma variável de ambiente em desenvolvimento web?",
+        "itens": [
+          "a) Uma variável definida no escopo global",
+          "b) Uma variável usada apenas no servidor",
+          "c) Uma variável que armazena informações de sessão do usuário",
+          "d) Uma variável que armazena informações sobre o ambiente de execução de uma aplicação"
+        ],
+        "resposta_correta": "Uma variável que armazena informações sobre o ambiente de execução de uma aplicação"
+      },
+      {
+        "pergunta": "O que é uma transação em um banco de dados?",
+        "itens": [
+          "a) Uma operação para atualizar a estrutura do banco de dados",
+          "b) Uma operação atômica que pode ser composta de várias operações",
+          "c) Uma operação para consultar dados do banco de dados",
+          "d) Uma operação para excluir dados do banco de dados"
+        ],
+        "resposta_correta": "Uma operação atômica que pode ser composta de várias operações"
+      },
+      {
+        "pergunta": "O que é um pool de conexões em bancos de dados?",
+        "itens": [
+          "a) Um grupo de conexões de rede ativas",
+          "b) Um mecanismo para limitar o número de consultas ao banco de dados",
+          "c) Um grupo de bancos de dados conectados entre si",
+          "d) Um mecanismo para reutilizar conexões de banco de dados"
+        ],
+        "resposta_correta": "Um mecanismo para reutilizar conexões de banco de dados"
+      },
+      {
+        "pergunta": "O que é o conceito de transação ACID em bancos de dados?",
+        "itens": [
+          "a) Um método para compactar dados no banco de dados",
+          "b) Um padrão de criptografia de dados",
+          "c) Um modelo de consistência de dados",
+          "d) Um conjunto de propriedades que garantem a integridade das transações"
+        ],
+        "resposta_correta": "Um conjunto de propriedades que garantem a integridade das transações"
+      }
+    ],
+    "dificil": [
+      {
+        "pergunta": "O que é o conceito de indexação em bancos de dados?",
+        "itens": [
+          "a) Um método para ordenar dados em ordem alfabética",
+          "b) Um método para compactar dados em disco",
+          "c) Um método para acelerar consultas de banco de dados",
+          "d) Um método para criptografar dados sensíveis"
+        ],
+        "resposta_correta": "Um método para acelerar consultas de banco de dados"
+      },
+      {
+        "pergunta": "O que é o padrão de arquitetura MVC?",
+        "itens": [
+          "a) Model-View-Container",
+          "b) Model-View-Configuration",
+          "c) Model-View-Component",
+          "d) Model-View-Controller"
+        ],
+        "resposta_correta": "Model-View-Controller"
+      },
+      {
+        "pergunta": "O que é um servidor de aplicação?",
+        "itens": [
+          "a) Um servidor que fornece recursos para aplicações web dinâmicas",
+          "b) Um servidor especializado em hospedar websites estáticos",
+          "c) Um servidor que armazena arquivos de configuração de aplicações",
+          "d) Um servidor que executa operações de segurança na aplicação"
+        ],
+        "resposta_correta": "Um servidor que fornece recursos para aplicações web dinâmicas"
+      },
+      {
+        "pergunta": "O que é o conceito de cache em desenvolvimento web?",
+        "itens": [
+          "a) Um método para criptografar dados sensíveis",
+          "b) Um método para compactar dados em disco",
+          "c) Um método para armazenar dados em disco",
+          "d) Um método para acelerar o carregamento de páginas web"
+        ],
+        "resposta_correta": "Um método para acelerar o carregamento de páginas web"
+      },
+      {
+        "pergunta": "O que é uma injeção de SQL?",
+        "itens": [
+          "a) Um método para validar consultas SQL",
+          "b) Uma técnica para criar consultas SQL complexas",
+          "c) Uma técnica de ataque que aproveita falhas de segurança em aplicações web",
+          "d) Um método para otimizar consultas SQL"
+        ],
+        "resposta_correta": "Uma técnica de ataque que aproveita falhas de segurança em aplicações web"
+      }
+    ]
+  }
 }
